@@ -1,0 +1,52 @@
+#width-300{
+  width: 300px;
+}
+#custom-btn{
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#custom-btn:hover{
+  box-shadow: 0 0 5px blueviolet,
+  0 0 25px blueviolet, 0 0 50px blueviolet,
+  0 0 100px blueviolet,0 0 200px blueviolet;
+}
+
+#success{
+  background-color: rgb(4, 91, 11);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#success:hover{
+  box-shadow: 0 0 5px rgb(1, 165, 15),
+  0 0 25px rgb(1, 165, 15), 0 0 50px rgb(1, 165, 15),
+  0 0 100px rgb(1, 165, 15),0 0 200px rgb(1, 165, 15);
+}
+
+#blue{
+  padding: 5px;
+  background-color: rgb(9, 60, 187);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#blue:hover{
+  box-shadow: 0 0 5px rgb(5, 12, 96),
+  0 0 25px rgb(45, 58, 146), 0 0 50px rgb(45, 58, 146),
+  0 0 100px rgb(45, 58, 146),0 0 200px rgb(45, 58, 146);
+}
+
+#pink{
+  background-color: rgb(131, 5, 122);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#pink:hover{
+  box-shadow: 0 0 5px rgb(207, 6, 207),
+  0 0 25px rgb(207, 6, 207), 0 0 50px rgb(207, 6, 207),
+  0 0 100px rgb(207, 6, 207),0 0 200px rgb(207, 6, 207);
+}
